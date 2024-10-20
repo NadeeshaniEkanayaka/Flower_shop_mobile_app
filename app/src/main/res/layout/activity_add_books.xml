@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_4_shop"
+    android:orientation="vertical"
+    tools:context=".AddBooks">
+
+    <EditText
+        android:id="@+id/bookid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="R-123"
+        android:inputType="textPersonName"
+        android:text="R-123"
+        android:textColor="#0B0B0B" />
+
+    <EditText
+        android:id="@+id/bookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Flower Name"
+        android:text="Red Rose"
+        android:textColor="@color/black"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="196dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/roses_boque" />
+
+    <EditText
+        android:id="@+id/bookprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Price"
+        android:text="Rs.500.00"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bookpages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Flower Quantity"
+        android:text="Flowers 15"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bookgenere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Colour"
+        android:text="Red"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/booktypee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Flower Type"
+        android:text="Boque"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bookadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Flower Details"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:cornerRadius="15dp" />
+
+</LinearLayout>
